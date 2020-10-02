@@ -6,10 +6,10 @@ using namespace std;
 
 string stringCompression(string str)
 {
-  if (str.length() == 1)
+  /*if (str.length() == 1)
   {
     return str + '1';
-  }
+  }*/
   int counter = 1;
   stringstream result;
   for (int i = 0; i < str.length(); i++)
